@@ -1,0 +1,338 @@
+/*--------------------------------------MEDIA--------------------------------------*/
+/*--------------------------------------MEDIA MAX 600PX --------------------------------------*/
+@media only screen and (max-width: 601px) {
+  p {
+    font-size: 0.8rem;
+    font-weight: lighter;
+  }
+
+  h1 {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  @keyframes smscreenopen {
+    from { height: 4rem; }
+    to { height: 100%; }
+
+  }
+  @keyframes smscreenclose {
+    from { height: 100%; }
+    to{ height: 4rem; }
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+  }
+
+  .nav-div-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: inherit;
+  }
+
+  .nav-div-3 {
+    display: flex;
+    width: 20%;
+    height: inherit;
+  }
+
+  .nav-div-2 {
+    display: none;
+    height: 8rem;
+    width: 100%;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    width: 100%;
+    height: inherit;
+  }
+
+  .nav-li {
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .nav-a {
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 10%;
+  }
+
+  /*-------------------LOGO LAYOUT ID--------------------------------*/
+  #logo-section {
+    width: 20%;
+  }
+
+  #logo-link {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #logo {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  #logo-name {
+    display: flex;
+    width: 60%;
+    font-size: 1rem;
+  }
+
+  /*-------------------LOGO LAYOUT ID--------------------------------*/
+
+  @keyframes rotatIconBurger {
+    from {
+      transform: rotate(0deg);
+      width: 100%;
+    }
+    to{
+      transform: rotate(180deg);
+      width: 0;
+    }
+
+  }
+  @keyframes rotatIconBurgerClose {
+    from{
+      transform: rotate(0deg);
+      width: 0;
+    }
+    to{
+      transform: rotate(180deg);
+      width : 100%;
+    }
+
+  }
+  @keyframes rotatIconX {
+    from {
+      transform: rotate(0deg);
+      width:0;
+    }
+    to{
+      transform: rotate(180deg);
+      width:100%;
+    }
+  }
+  @keyframes rotatIconXClose{
+    from{
+          transform: rotate(0deg);
+          width: 100%;
+        }
+      to{
+          transform: rotate(180deg);
+          width : 0;
+        }
+  }
+  #buttonmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+    background: var(--bluetto);
+    border: none;
+
+  }
+  #buttonmenuclose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: inherit;
+    background: var(--bluetto);
+    border: none;
+  }
+
+  #img-buttonmenu {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  /*------------------FOOTER-------------------*/
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+  }
+
+  .footer-div-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    position: relative;
+  }
+
+  .footer-privacy {
+    width: 100%;
+    height: 4rem;
+    position: relative;
+  }
+
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 4rem;
+  }
+
+  .social-logo {
+    height: 2rem;
+    width: 2rem;
+    transition: transform 0.1s;
+  }
+
+  .social-footer-link {
+    height: 4rem;
+    width: 100%;
+  }
+
+  .social-logo:hover {
+    transform: scale(1.1);
+  }
+
+  #footer-privacy-link {
+    height: 4rem;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  /*------------------FOOTER-------------------*/
+  /*---------------------------------INDEX PAGE----------------------------------------------------*/
+  .middle-content-logo {
+    margin-top: 30%;
+  }
+
+  .middle-logo {
+    max-width: 8rem;
+    height: 8rem;
+  }
+
+  .middle-instruction {
+    display: flex;
+    text-align: center;
+  }
+
+  .middle-instruction>p {
+    font-size: 0.8rem;
+  }
+
+  .middle-certificate {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 10rem;
+  }
+
+  .certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: inherit;
+  }
+
+  .img-certificate {
+    width: auto;
+    height: 7rem;
+    border-radius: 20px;
+  }
+
+  .img-certificate:hover {
+    transform: scale(1.1);
+  }
+
+  /*---------------------------------INDEX PAGE----------------------------------------------------*/
+  /*---------------------------------CONTATTI PAGE----------------------------------------------------*/
+  .form-container {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .form-field-container {
+    width: 100%;
+    margin-top: 20%;
+  }
+
+  .label-field {
+    width: 80%;
+  }
+
+  .input-field {
+    width: 80%;
+  }
+
+  .textarea-field {
+    width: 80%;
+  }
+
+  .form-button {
+    width: 80%;
+  }
+
+  .submit-button {
+    width: 25%;
+  }
+
+  /*---------------------------------CONTATTI PAGE----------------------------------------------------*/
+  /*---------------------------------PROGETTI PAGE----------------------------------------------------*/
+  .grid-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110rem;
+  }
+
+  .grid-container{
+    height: 90%;
+    grid-template-columns: auto;
+    margin-top:5%;
+  }
+
+  .grid-items{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    min-height: 9rem;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  .project-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+  }
+  .img-partner{
+    max-width: 7rem;
+    height: 7rem;
+    transition: transform 0.1s;
+  }
+  .img-partner:hover{
+    transform: scale(1.1);
+  }
+
+
+  /*---------------------------------PROGETTI PAGE----------------------------------------------------*/
+  /*--------------------------------------MEDIA MAX 600PX --------------------------------------*/
+}
